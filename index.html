@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Portofolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                Hallo
+            </div>
+
+            <ul>
+                <li><a href="#about">about</a></li>
+                <li><a href="#skills">skills</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <main>
+        <!-- Artikel 1 -->
+        <article id="about">
+            <div class="image">
+                <img src="poto.jpg" alt="gambar coding" width="100% ">
+            </div>
+
+            <div class="content1">
+                <h3>Hi, Aku Adalah</h3>
+                <h2>Arya Dwika</h2>
+                <p>Hanya Seorang Siswa Biasa.</p>
+                <button id="Download">
+                    <a href="gambar.pdf">Download CV</a>
+                    <script src="script.js"></script>
+                </button>
+            </div>
+        </article>
+
+        <!-- Article 2 -->
+        <article id="skill">
+            <h2>Skills</h2>
+            <!-- Skill 1 -->
+            <div class="content2">
+            <section class="card">
+                <img src="pemrograman-removebg-preview.png" alt="gambar coding" width="20%">
+
+                <h3>Pemrograman</h3>
+            </section>
+
+            <!-- Skill 2 -->
+            <section class="card">
+                <img src="jaringan-removebg-preview.png" alt="gambar coding" width="20%">
+
+                <h3>Jaringan</h3>
+            </section>
+
+            <!-- Skill 3 -->
+            <section class="card">
+                <img src="desain-removebg-preview.png" alt="gambar coding" width="20%">
+
+                <h3>Desain</h3>
+            </section>
+            </div>
+        </article>
+
+        <form id="contact">
+            <fieldset class="video-background">
+                <video autoplay loop muted>
+                    <source src="rainy-day-at-the-krusty-krab-spongebob-moewalls-com.mp4" type="video/mp4">
+                </video>
+                <h2>Kontak Saya</h2>
+                <p>Hubungi Saya
+                </p>
+
+                <label for="nama">Nama :</label><br>
+                <input type="text" id="nama"><br>
+                
+                <label for="email">email :</label><br>
+                <input type="email" id="email"><br>
+
+                <label for="pesan">pesan :</label><br>
+                <textarea id="pesan" cols="30" rows="10"></textarea> 
+                <br>
+
+                <button>Kirim</button>
+            </fieldset>
+        </form>
+    </main>
+    
+    <footer>
+        <p>Pemrograman Web &copy; Haify</p>
+    </footer>
+</body>
+</html>
